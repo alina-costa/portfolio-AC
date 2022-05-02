@@ -10,6 +10,7 @@ body {
     font-family: Arial;
 }
 
+/* creates box for header and navigation */
 .header {
     padding: 50px;
     border: 15px;
@@ -22,6 +23,7 @@ body {
     font-size: 48px;
 }
 
+/* places nagigation links within the header on the right side */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,18 +34,18 @@ body {
 .header nav ul {
     list-style-type: none;
 }
-
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* navigation links styling */
 a{
     color: #ffffff;
     text-decoration: none;
     float: right;
 }
 
+/* developer photo */
 #about-me img {
     float: right;
     width: 450px;
@@ -62,7 +64,7 @@ a{
   padding: 8px;
 }
 
-/* Creates equal columns that float next to each other */
+/* create equal columns that float next to each other */
 .column {
   float: left;
   width: 25%;
@@ -70,8 +72,7 @@ a{
   height: 100px;
 }
 
-
-
+/* create dimentions for each project */
 div.column {
     margin: 5px;
     border: 1px solid #ccc;
@@ -79,15 +80,18 @@ div.column {
     width: 180px;
 }
 
-div.column img {
+.column img {
     width: 70%;
     height: auto;
 }
 
-div.content {
-    padding: 15px;
-    text-align: center;
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
+
+
 
 .sections h2 {
     margin-bottom: 20px;
