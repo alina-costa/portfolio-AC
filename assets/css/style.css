@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+}
+
+.header {
+    padding: 50px;
+    border: 15px;
+    background-color: #00afc2;
+    color: white;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+    float: right;
+}
+
+#about-me img {
+    float: right;
+    width: 450px;
+    height: 400px;
+    background: #555;
+}
+
+#about-me h2{
+    position: relative;
+    top: 18px;
+    left: 10px;
+}
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Creates equal columns that float next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 100px;
+}
+
+
+
+div.column {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.column img {
+    width: 70%;
+    height: auto;
+}
+
+div.content {
+    padding: 15px;
+    text-align: center;
+}
+
+.sections h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.column h3 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
