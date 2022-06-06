@@ -40,9 +40,9 @@ body {
 }
 /* navigation links styling */
 a{
-    color: #ffffff;
     text-decoration: none;
     float: right;
+    text-align: justify;
 }
 
 /* developer photo */
@@ -72,7 +72,7 @@ a{
   height: 100px;
 }
 
-/* create dimentions for each project */
+/* create dimensions for each project */
 div.column {
     margin: 5px;
     border: 1px solid #ccc;
@@ -101,4 +101,12 @@ div.column {
 .column h3 {
     margin-bottom: 20px;
     font-size: 30px;
+}
+
+.github-link {
+    color: blue; 
+}
+
+.github-name {
+    display:flex
 }
