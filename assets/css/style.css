@@ -86,7 +86,7 @@ h2 {
 
 .content p {
   margin-top: 30px;
-  width: 70%;
+  width: 60%;
   display: inline-block;
   font-size: 1.4rem;
   line-height: 30px;
@@ -107,6 +107,19 @@ h2 {
   border-style: solid;
   border-color: rgb(102, 255, 176);
   border-width: 4px;
+  text-align: center;
+  align-items: center;
+}
+
+#hire-me h2 {
+  text-align: center;
+  align-items: center;
+  text-decoration-line: underline;
+  text-decoration-thickness: 3px;
+}
+
+#contact {
+  text-align: center;
 }
 
 #footer {

@@ -11,15 +11,15 @@
   </head>
 
   <body>
-    <div class="hero">
+    <div id="home" class="hero">
       <nav>
         <h1>Image</h1>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Portfolio</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about-me">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#">Resume</a></li>
-          <li><a href="#">Hire Me</a></li>
+          <li><a href="#hire-me">Hire Me</a></li>
         </ul>
       </nav>
       <div class="summary">
@@ -30,8 +30,8 @@
         </p>
       </div>
     </div>
-    <section id="about-me" class="content">
-      <div class="content-info">
+    <section class="content">
+      <div id="about-me" class="content-info">
         <h2>About Me</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -43,13 +43,23 @@
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </div>
+    </section>
+    <section class="content">
       <div id="portfolio" class="content-info">
         <h2>Portfolio</h2>
         <p>Take a look at some of my projects.</p>
       </div>
-      <div class="content-info">
+    </section>
+    <section class="content">
+      <div id="hire-me" class="content-info">
         <h2>Hire Me</h2>
-        <p>Contact info:</p>
+        <form id="contact">
+          <label for="contact-name">Your Name</label>
+          <input type="text" id="contact-name" placeholder="Your Name" />
+          <label for="contact-message">Message</label>
+          <textarea id="contact-message" placeholder="Message"></textarea>
+          <button type="submit">Submit</button>
+        </form>
       </div>
     </section>
     <footer id="footer">
