@@ -134,16 +134,17 @@ h2 {
   flex: 1;
   background: whitesmoke;
   color: rgb(51, 51, 51);
-  max-height: 620px;
-  max-width: 370px;
+  max-height: 500px;
+  max-width: 300px;
   position: relative;
   top: -250px;
 }
 
 .project img {
-  max-width: auto;
-  height: 300px;
-  padding-top: 50px;
+  /* max-width: auto; */
+  width: 250px;
+  height: 250px;
+  padding-top: 30px;
 }
 
 .project-info {
