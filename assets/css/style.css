@@ -11,8 +11,12 @@
   background: rgb(51, 51, 51);
   color: whitesmoke;
   border-style: solid;
-  border-color: rgb(102, 255, 176);
+  border-color: rgb(47, 227, 200);
   border-width: 4px;
+}
+
+.logo {
+  padding-top: 20px;
 }
 
 h1 {
@@ -27,7 +31,6 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
-/* rgb(109, 61, 255) */
 
 nav ul li {
   display: inline-block;
@@ -43,7 +46,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: rgb(102, 255, 176);
+  color: rgb(47, 227, 200);
 }
 
 .summary {
@@ -62,7 +65,7 @@ nav ul li a:hover {
 } */
 
 span {
-  color: rgb(102, 255, 176);
+  color: rgb(47, 227, 200);
 }
 
 h2 {
@@ -111,11 +114,16 @@ h2 {
   text-decoration-thickness: 3px;
 }
 
+#portfolio h3 {
+  font-size: 22px;
+  padding-top: 15px;
+}
+
 .portfolio-projects {
   background: rgb(51, 51, 51);
   color: whitesmoke;
   border-style: solid;
-  border-color: rgb(102, 255, 176);
+  border-color: rgb(47, 227, 200);
   border-width: 4px;
   text-align: center;
   align-items: center;
@@ -174,7 +182,7 @@ h2 {
   justify-content: flex-end;
   align-items: center;
   height: 100px;
-  background-color: rgb(102, 255, 176);
+  background-color: rgb(47, 227, 200);
   margin-top: 10px;
 }
 
