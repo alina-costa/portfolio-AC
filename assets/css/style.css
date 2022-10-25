@@ -56,9 +56,13 @@ nav ul li a:hover {
 }
 
 .summary h1 {
-  font-size: 2.7rem;
+  font-size: 3rem;
   color: whitesmoke;
   margin-bottom: 20px;
+}
+
+.summary p {
+  font-size: 25px;
 }
 
 span {
@@ -97,6 +101,16 @@ h2 {
   align-items: center;
   text-decoration-line: underline;
   text-decoration-thickness: 3px;
+}
+
+#about-me h3 {
+  margin-top: 3%;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+#skills {
+  font-size: 22px;
 }
 
 #portfolio {
