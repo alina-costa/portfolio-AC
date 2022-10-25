@@ -1,16 +1,16 @@
-# portfolio-AC
+# Portfolio
 
-Welcome to my professional portfolio! 
+## Description
 
-For any employers or fellow developers interested in viewing my previous work, 
-I've made it all easily accessible on this site. Use the navigation bar at the top of the page 
-to browse through the site and simplify your search if you're looking for something specific. 
-I've also included my contact information if you decide that I am qualified to fulfill the role 
-you're looking for. I look forward to working with you. 
+I put together this application to showcase my development skills through the website itself, as well as through the projects displayed in the "Portfolio" section.
 
-You can view the full website here: https://alina-costa.github.io/portfolio-AC/
+Use the navigation bar at the top of the page to browse through the site and simplify your search. 
+I've included a few of my previous projects, as well as my resume and contact information. 
 
-<img width="1680" alt="Screen Shot 2022-05-01 at 11 03 17 PM" src="https://user-images.githubusercontent.com/102388724/166181006-b3c02aa4-a8dc-43fc-a253-dfa35efa1169.png">
-<img width="1678" alt="Screen Shot 2022-05-01 at 11 03 30 PM" src="https://user-images.githubusercontent.com/102388724/166181010-72fa0b88-369d-46f7-a08a-3be8f32b3af9.png">
-<img width="1679" alt="Screen Shot 2022-05-01 at 11 03 41 PM" src="https://user-images.githubusercontent.com/102388724/166181020-ba445145-38e5-4fb5-8e7c-6d957a2b4fbd.png">
-<img width="1677" alt="Screen Shot 2022-05-01 at 11 03 53 PM" src="https://user-images.githubusercontent.com/102388724/166181028-7b4fdbce-ab6c-4694-9e5d-6d4cdcb12a75.png">
+I look forward to working with you. 
+
+You can preview the screenshots provided below, or view the deployed website here: https://alina-costa.github.io/portfolio-AC/
+
+<img width="1673" alt="Screen Shot 2022-10-25 at 12 22 22 AM" src="https://user-images.githubusercontent.com/102388724/197682101-7da32587-91a4-46b7-b888-7069f9e716e2.png">
+<img width="1672" alt="Screen Shot 2022-10-25 at 12 22 58 AM" src="https://user-images.githubusercontent.com/102388724/197682123-ff3f8f67-d8b6-40ef-ad49-ed4f711da6cc.png">
+<img width="1641" alt="Screen Shot 2022-10-25 at 12 22 39 AM" src="https://user-images.githubusercontent.com/102388724/197682137-0aa9a51c-6d02-4491-8f37-b15b461ecfa4.png">
