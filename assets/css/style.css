@@ -113,6 +113,10 @@ h2 {
   font-size: 22px;
 }
 
+.hide {
+  display: none;
+}
+
 #portfolio {
   background: rgb(51, 51, 51);
   color: whitesmoke;
@@ -153,19 +157,14 @@ h2 {
 }
 
 .project {
-  margin: 20px;
+  margin: 15px;
   flex: 1;
   background: whitesmoke;
   color: rgb(51, 51, 51);
-  height: 450px;
-  max-width: 300px;
+  height: 550px;
+  max-width: 320px;
   position: relative;
   top: -200px;
-}
-
-.project:hover {
-  box-shadow: 5px 10px 15px rgb(47, 227, 200);
-  transition-duration: 0.3s;
 }
 
 .project img {
@@ -175,8 +174,19 @@ h2 {
 }
 
 .project-info {
-  padding: 20px;
-  line-height: 0.6;
+  padding-top: 18px;
+  line-height: 0.5;
+}
+
+h5 {
+  font-size: 15px;
+  margin-top: 12px;
+  line-height: 1.2;
+  padding-bottom: 12px;
+}
+
+.link {
+  padding-bottom: 2px;
 }
 
 .portfolio-projects p {
@@ -193,47 +203,6 @@ h2 {
   align-items: center;
   text-decoration-line: underline;
   text-decoration-thickness: 3px;
-}
-
-input[type="text"] {
-  box-sizing: border-box;
-  width: 75%;
-  padding: 12px;
-  border: 1px solid rgb(51, 51, 51);
-  border-radius: 4px;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-textarea {
-  height: 6rem;
-  box-sizing: border-box;
-  width: 100%;
-  padding: 12px;
-  border: 1px solid rgb(51, 51, 51);
-  border-radius: 4px;
-  margin-top: 6px;
-  margin-bottom: 12px;
-}
-
-button[type="submit"] {
-  background-color: whitesmoke;
-  color: black;
-  border-style: solid;
-  border-color: rgb(47, 227, 200);
-  border-radius: 4px;
-  padding: 12px 20px;
-  font-size: 14px;
-  font-weight: 600;
-  cursor: pointer;
-  transition-duration: 0.4s;
-}
-
-button[type="submit"]:hover {
-  background-color: rgb(51, 51, 51);
-  color: white;
-  box-shadow: 2px 3px 3px 2px whitesmoke, 0 3px 3px 0 whitesmoke;
 }
 
 form {
