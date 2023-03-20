@@ -146,6 +146,7 @@ h2 {
   border-width: 4px;
   text-align: center;
   align-items: center;
+  margin-top: 3%;
 }
 
 .projects {
@@ -228,13 +229,13 @@ label a {
   flex-wrap: wrap;
   justify-content: flex-end;
   align-items: center;
-  height: 100px;
+  height: 3%;
   background-color: rgb(47, 227, 200);
   margin-top: 10px;
 }
 
 footer p {
-  font-size: 22px;
+  font-size: 18px;
   color: rgb(51, 51, 51);
   margin: 0 18px 0;
 }
